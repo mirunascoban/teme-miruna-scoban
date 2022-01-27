@@ -1,5 +1,7 @@
 <?php
-//Array Left rotation
+
+// Tema1
+// Array Left rotation
 $array = [1, 2, 3, 4, 5];
 $n = 3;
 
@@ -17,7 +19,8 @@ for ($i = 0; $i < count($array); $i++) {
 
 /****************************************************************** */
 
-//Find certain item in array
+
+// Find certain item in array
 $array = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89];
 
 $count = 0;
@@ -58,5 +61,6 @@ $size = sizeof($array);
 for($i = $size-1; $i >= 0; $i--){
     echo $array[$i];
 }
+
 
 ?>
